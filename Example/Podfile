@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JsonTranslatorGenerator_Example' do
+  pod 'JsonTranslatorGenerator', :path => '../'
+
+  target 'JsonTranslatorGenerator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
