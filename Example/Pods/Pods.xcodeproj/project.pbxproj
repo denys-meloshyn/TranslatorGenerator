@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		1E818CA93096B52670C79DF2CE187B3F /* JsonTranslatorGenerator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F6CD4EA98B185A4349AEF8A1742759 /* JsonTranslatorGenerator-dummy.m */; };
 		5708B9AFD8E42D32AF5953F8A1E344EB /* Pods-JsonTranslatorGenerator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8B489CA36C1D2B54F8E01E1C3F5BC3C /* Pods-JsonTranslatorGenerator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		573CED582063D1F1007E33F1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573CED562063D1F1007E33F1 /* main.swift */; };
+		573CED592063D1F1007E33F1 /* String+Addictions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573CED572063D1F1007E33F1 /* String+Addictions.swift */; };
 		74C176A47A02BE7236CCF2B41702BFE0 /* JsonTranslatorGenerator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C90718348BD24F90956B50532FE6782 /* JsonTranslatorGenerator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9515B02A399BCF83D372CAAD643E3F63 /* Pods-JsonTranslatorGenerator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D04042FA0A66CF81D2D71B3C7C418B1 /* Pods-JsonTranslatorGenerator_Example-dummy.m */; };
 		9DE2176929C7C8D15445F43CF417B7AB /* Pods-JsonTranslatorGenerator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC91AFC531E2F89CDEE501C431F43CF6 /* Pods-JsonTranslatorGenerator_Tests-dummy.m */; };
 		A008DB93921458C392CC0748C8FA66D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		AACE95CB87E310FD12C6BAA9ACA951AC /* Pods-JsonTranslatorGenerator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BBBEEDE48619EFE873B379C1D9EE9A6 /* Pods-JsonTranslatorGenerator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DCAFDB1ED2F0D4E92B3641B9CBA385D9 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECFB510C35FC4379FAC5A42F4004F1A /* ReplaceMe.swift */; };
 		DFDB493A31802A7D642B6CD14C980861 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		E9E53224CB4A4B82B68F6E8A2D0A3C45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -33,36 +34,37 @@
 		03150E3DD6C39DD7B7572E853BAE7323 /* Pods-JsonTranslatorGenerator_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JsonTranslatorGenerator_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		0BBBEEDE48619EFE873B379C1D9EE9A6 /* Pods-JsonTranslatorGenerator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JsonTranslatorGenerator_Example-umbrella.h"; sourceTree = "<group>"; };
 		0CBAAFF442B7416CD11A98408DC691A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0D319731B8AE7006DDB751D2B212A218 /* Pods-JsonTranslatorGenerator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JsonTranslatorGenerator_Tests.modulemap"; sourceTree = "<group>"; };
-		0DF5CB181094D3B3FBD442CF2158202C /* JsonTranslatorGenerator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JsonTranslatorGenerator.modulemap; sourceTree = "<group>"; };
+		0D319731B8AE7006DDB751D2B212A218 /* Pods-JsonTranslatorGenerator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JsonTranslatorGenerator_Tests.modulemap"; sourceTree = "<group>"; };
+		0DF5CB181094D3B3FBD442CF2158202C /* JsonTranslatorGenerator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JsonTranslatorGenerator.modulemap; sourceTree = "<group>"; };
 		12FEACB163EC9FAEBAEB94D82CD7989A /* JsonTranslatorGenerator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JsonTranslatorGenerator.xcconfig; sourceTree = "<group>"; };
-		1FBF53E20ACCBEF070A744B8037A5331 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1FBF53E20ACCBEF070A744B8037A5331 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		259A62F897D8C9FC6B0820CFDF590911 /* Pods-JsonTranslatorGenerator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JsonTranslatorGenerator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		26378434D38E3EAB0741F018F0A743E3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C90718348BD24F90956B50532FE6782 /* JsonTranslatorGenerator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JsonTranslatorGenerator-umbrella.h"; sourceTree = "<group>"; };
 		2D04042FA0A66CF81D2D71B3C7C418B1 /* Pods-JsonTranslatorGenerator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JsonTranslatorGenerator_Example-dummy.m"; sourceTree = "<group>"; };
 		2D9FA46B4C50B94985BC6F13A5BB10D8 /* Pods-JsonTranslatorGenerator_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JsonTranslatorGenerator_Example-resources.sh"; sourceTree = "<group>"; };
 		42F8187C2B482E664C193109043AAFC1 /* Pods-JsonTranslatorGenerator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JsonTranslatorGenerator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		569D4974EA6C86CCC14CC4602274041F /* JsonTranslatorGenerator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = JsonTranslatorGenerator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		569D4974EA6C86CCC14CC4602274041F /* JsonTranslatorGenerator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = JsonTranslatorGenerator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		573CED562063D1F1007E33F1 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = JsonTranslatorGenerator/Classes/main.swift; sourceTree = "<group>"; };
+		573CED572063D1F1007E33F1 /* String+Addictions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Addictions.swift"; path = "JsonTranslatorGenerator/Classes/String+Addictions.swift"; sourceTree = "<group>"; };
 		576003DE4629D01CAEF04A385E2F5824 /* JsonTranslatorGenerator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JsonTranslatorGenerator-prefix.pch"; sourceTree = "<group>"; };
-		5840B95A19E1CC358FC6DB57CCD61FD6 /* Pods_JsonTranslatorGenerator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JsonTranslatorGenerator_Example.framework; path = "Pods-JsonTranslatorGenerator_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5840B95A19E1CC358FC6DB57CCD61FD6 /* Pods_JsonTranslatorGenerator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JsonTranslatorGenerator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62430E7CA9198DF4E9182E19F39434F7 /* Pods-JsonTranslatorGenerator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JsonTranslatorGenerator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		62EE478144BE60D35B4365730B14218F /* Pods-JsonTranslatorGenerator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JsonTranslatorGenerator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6A15D7D7510EC4772EF13B63CC921C74 /* Pods-JsonTranslatorGenerator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JsonTranslatorGenerator_Example.modulemap"; sourceTree = "<group>"; };
+		6A15D7D7510EC4772EF13B63CC921C74 /* Pods-JsonTranslatorGenerator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JsonTranslatorGenerator_Example.modulemap"; sourceTree = "<group>"; };
 		6E4026C789390AA5F59D6DF04F6FD72A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FD5026B1F43380DAB286063345DDD49 /* Pods-JsonTranslatorGenerator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JsonTranslatorGenerator_Example.release.xcconfig"; sourceTree = "<group>"; };
 		73F6CD4EA98B185A4349AEF8A1742759 /* JsonTranslatorGenerator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JsonTranslatorGenerator-dummy.m"; sourceTree = "<group>"; };
-		7C6F15A6A8AD169B538DA401DE96819A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7C6F15A6A8AD169B538DA401DE96819A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7FB7A18C8A40EB902DAE9F497196733A /* Pods-JsonTranslatorGenerator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JsonTranslatorGenerator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8ECFB510C35FC4379FAC5A42F4004F1A /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = JsonTranslatorGenerator/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94142B18F9CDF67F22718E7EA7BDCFE6 /* Pods-JsonTranslatorGenerator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JsonTranslatorGenerator_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9ADE2FEA8A6D3E0A5C47648B81147087 /* Pods_JsonTranslatorGenerator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JsonTranslatorGenerator_Tests.framework; path = "Pods-JsonTranslatorGenerator_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ADE2FEA8A6D3E0A5C47648B81147087 /* Pods_JsonTranslatorGenerator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JsonTranslatorGenerator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8B489CA36C1D2B54F8E01E1C3F5BC3C /* Pods-JsonTranslatorGenerator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JsonTranslatorGenerator_Tests-umbrella.h"; sourceTree = "<group>"; };
 		BC91AFC531E2F89CDEE501C431F43CF6 /* Pods-JsonTranslatorGenerator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JsonTranslatorGenerator_Tests-dummy.m"; sourceTree = "<group>"; };
 		CBAF9165B41DE21DD770F7FDCBDD29FF /* Pods-JsonTranslatorGenerator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JsonTranslatorGenerator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EF8E7FBB54F90C1444458C8B6D44B56B /* JsonTranslatorGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JsonTranslatorGenerator.framework; path = JsonTranslatorGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8E7FBB54F90C1444458C8B6D44B56B /* JsonTranslatorGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JsonTranslatorGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F92386BA4CBEF0BBF047A15C296F8215 /* Pods-JsonTranslatorGenerator_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JsonTranslatorGenerator_Tests-resources.sh"; sourceTree = "<group>"; };
 		F96E1FFC118B2BB733C31CDD15A05121 /* Pods-JsonTranslatorGenerator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JsonTranslatorGenerator_Example-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -212,7 +214,8 @@
 		EF105CB202FBD5F0ACE3EB947B8D9290 /* JsonTranslatorGenerator */ = {
 			isa = PBXGroup;
 			children = (
-				8ECFB510C35FC4379FAC5A42F4004F1A /* ReplaceMe.swift */,
+				573CED562063D1F1007E33F1 /* main.swift */,
+				573CED572063D1F1007E33F1 /* String+Addictions.swift */,
 				696486868E049487E64D505C615217F3 /* Pod */,
 				42AEDA28170458F8D53149E9F7866C43 /* Support Files */,
 			);
@@ -310,6 +313,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					C15A4C5E805E4071E106BD59C020231F = {
+						LastSwiftMigration = 0920;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -335,8 +343,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				573CED582063D1F1007E33F1 /* main.swift in Sources */,
+				573CED592063D1F1007E33F1 /* String+Addictions.swift in Sources */,
 				1E818CA93096B52670C79DF2CE187B3F /* JsonTranslatorGenerator-dummy.m in Sources */,
-				DCAFDB1ED2F0D4E92B3641B9CBA385D9 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +441,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 12FEACB163EC9FAEBAEB94D82CD7989A /* JsonTranslatorGenerator.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -553,6 +563,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 12FEACB163EC9FAEBAEB94D82CD7989A /* JsonTranslatorGenerator.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
