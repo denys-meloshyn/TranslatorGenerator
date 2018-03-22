@@ -1,0 +1,16 @@
+PODS:
+  - JsonTranslatorGenerator (0.1.0)
+
+DEPENDENCIES:
+  - JsonTranslatorGenerator (from `../`)
+
+EXTERNAL SOURCES:
+  JsonTranslatorGenerator:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JsonTranslatorGenerator: be3a7355e92276cad4bd5b315d519d26f9915286
+
+PODFILE CHECKSUM: c143ecd1121b52b7d06a8e2ce233512916e40aea
+
+COCOAPODS: 1.4.0

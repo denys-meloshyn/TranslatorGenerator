@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E818CA93096B52670C79DF2CE187B3F /* JsonTranslatorGenerator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F6CD4EA98B185A4349AEF8A1742759 /* JsonTranslatorGenerator-dummy.m */; };
+		5708B9AFD8E42D32AF5953F8A1E344EB /* Pods-JsonTranslatorGenerator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8B489CA36C1D2B54F8E01E1C3F5BC3C /* Pods-JsonTranslatorGenerator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74C176A47A02BE7236CCF2B41702BFE0 /* JsonTranslatorGenerator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C90718348BD24F90956B50532FE6782 /* JsonTranslatorGenerator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9515B02A399BCF83D372CAAD643E3F63 /* Pods-JsonTranslatorGenerator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D04042FA0A66CF81D2D71B3C7C418B1 /* Pods-JsonTranslatorGenerator_Example-dummy.m */; };
+		9DE2176929C7C8D15445F43CF417B7AB /* Pods-JsonTranslatorGenerator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC91AFC531E2F89CDEE501C431F43CF6 /* Pods-JsonTranslatorGenerator_Tests-dummy.m */; };
+		A008DB93921458C392CC0748C8FA66D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AACE95CB87E310FD12C6BAA9ACA951AC /* Pods-JsonTranslatorGenerator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BBBEEDE48619EFE873B379C1D9EE9A6 /* Pods-JsonTranslatorGenerator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCAFDB1ED2F0D4E92B3641B9CBA385D9 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECFB510C35FC4379FAC5A42F4004F1A /* ReplaceMe.swift */; };
+		DFDB493A31802A7D642B6CD14C980861 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E9E53224CB4A4B82B68F6E8A2D0A3C45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9D0A1C0075C891B33FBB83C1091A59B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C15A4C5E805E4071E106BD59C020231F;
+			remoteInfo = JsonTranslatorGenerator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03150E3DD6C39DD7B7572E853BAE7323 /* Pods-JsonTranslatorGenerator_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JsonTranslatorGenerator_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		0BBBEEDE48619EFE873B379C1D9EE9A6 /* Pods-JsonTranslatorGenerator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JsonTranslatorGenerator_Example-umbrella.h"; sourceTree = "<group>"; };
+		0CBAAFF442B7416CD11A98408DC691A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D319731B8AE7006DDB751D2B212A218 /* Pods-JsonTranslatorGenerator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JsonTranslatorGenerator_Tests.modulemap"; sourceTree = "<group>"; };
+		0DF5CB181094D3B3FBD442CF2158202C /* JsonTranslatorGenerator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JsonTranslatorGenerator.modulemap; sourceTree = "<group>"; };
+		12FEACB163EC9FAEBAEB94D82CD7989A /* JsonTranslatorGenerator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JsonTranslatorGenerator.xcconfig; sourceTree = "<group>"; };
+		1FBF53E20ACCBEF070A744B8037A5331 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		259A62F897D8C9FC6B0820CFDF590911 /* Pods-JsonTranslatorGenerator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JsonTranslatorGenerator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		26378434D38E3EAB0741F018F0A743E3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C90718348BD24F90956B50532FE6782 /* JsonTranslatorGenerator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JsonTranslatorGenerator-umbrella.h"; sourceTree = "<group>"; };
+		2D04042FA0A66CF81D2D71B3C7C418B1 /* Pods-JsonTranslatorGenerator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JsonTranslatorGenerator_Example-dummy.m"; sourceTree = "<group>"; };
+		2D9FA46B4C50B94985BC6F13A5BB10D8 /* Pods-JsonTranslatorGenerator_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JsonTranslatorGenerator_Example-resources.sh"; sourceTree = "<group>"; };
+		42F8187C2B482E664C193109043AAFC1 /* Pods-JsonTranslatorGenerator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JsonTranslatorGenerator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		569D4974EA6C86CCC14CC4602274041F /* JsonTranslatorGenerator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = JsonTranslatorGenerator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		576003DE4629D01CAEF04A385E2F5824 /* JsonTranslatorGenerator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JsonTranslatorGenerator-prefix.pch"; sourceTree = "<group>"; };
+		5840B95A19E1CC358FC6DB57CCD61FD6 /* Pods_JsonTranslatorGenerator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JsonTranslatorGenerator_Example.framework; path = "Pods-JsonTranslatorGenerator_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62430E7CA9198DF4E9182E19F39434F7 /* Pods-JsonTranslatorGenerator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JsonTranslatorGenerator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		62EE478144BE60D35B4365730B14218F /* Pods-JsonTranslatorGenerator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JsonTranslatorGenerator_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6A15D7D7510EC4772EF13B63CC921C74 /* Pods-JsonTranslatorGenerator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JsonTranslatorGenerator_Example.modulemap"; sourceTree = "<group>"; };
+		6E4026C789390AA5F59D6DF04F6FD72A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FD5026B1F43380DAB286063345DDD49 /* Pods-JsonTranslatorGenerator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JsonTranslatorGenerator_Example.release.xcconfig"; sourceTree = "<group>"; };
+		73F6CD4EA98B185A4349AEF8A1742759 /* JsonTranslatorGenerator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JsonTranslatorGenerator-dummy.m"; sourceTree = "<group>"; };
+		7C6F15A6A8AD169B538DA401DE96819A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7FB7A18C8A40EB902DAE9F497196733A /* Pods-JsonTranslatorGenerator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JsonTranslatorGenerator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8ECFB510C35FC4379FAC5A42F4004F1A /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = JsonTranslatorGenerator/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94142B18F9CDF67F22718E7EA7BDCFE6 /* Pods-JsonTranslatorGenerator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JsonTranslatorGenerator_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9ADE2FEA8A6D3E0A5C47648B81147087 /* Pods_JsonTranslatorGenerator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JsonTranslatorGenerator_Tests.framework; path = "Pods-JsonTranslatorGenerator_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8B489CA36C1D2B54F8E01E1C3F5BC3C /* Pods-JsonTranslatorGenerator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JsonTranslatorGenerator_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BC91AFC531E2F89CDEE501C431F43CF6 /* Pods-JsonTranslatorGenerator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JsonTranslatorGenerator_Tests-dummy.m"; sourceTree = "<group>"; };
+		CBAF9165B41DE21DD770F7FDCBDD29FF /* Pods-JsonTranslatorGenerator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JsonTranslatorGenerator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EF8E7FBB54F90C1444458C8B6D44B56B /* JsonTranslatorGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JsonTranslatorGenerator.framework; path = JsonTranslatorGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F92386BA4CBEF0BBF047A15C296F8215 /* Pods-JsonTranslatorGenerator_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JsonTranslatorGenerator_Tests-resources.sh"; sourceTree = "<group>"; };
+		F96E1FFC118B2BB733C31CDD15A05121 /* Pods-JsonTranslatorGenerator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JsonTranslatorGenerator_Example-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		420DE3C814EC2917B6B889DE4AB49062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E53224CB4A4B82B68F6E8A2D0A3C45 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86D710739946576F8A881CB866302674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFDB493A31802A7D642B6CD14C980861 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0B4891A0C1109A877D80039A1C87538 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A008DB93921458C392CC0748C8FA66D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42AEDA28170458F8D53149E9F7866C43 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAAFF442B7416CD11A98408DC691A6 /* Info.plist */,
+				0DF5CB181094D3B3FBD442CF2158202C /* JsonTranslatorGenerator.modulemap */,
+				12FEACB163EC9FAEBAEB94D82CD7989A /* JsonTranslatorGenerator.xcconfig */,
+				73F6CD4EA98B185A4349AEF8A1742759 /* JsonTranslatorGenerator-dummy.m */,
+				576003DE4629D01CAEF04A385E2F5824 /* JsonTranslatorGenerator-prefix.pch */,
+				2C90718348BD24F90956B50532FE6782 /* JsonTranslatorGenerator-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JsonTranslatorGenerator";
+			sourceTree = "<group>";
+		};
+		55F59CDED751A10F710CBA0DD824CB3F /* Pods-JsonTranslatorGenerator_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6E4026C789390AA5F59D6DF04F6FD72A /* Info.plist */,
+				0D319731B8AE7006DDB751D2B212A218 /* Pods-JsonTranslatorGenerator_Tests.modulemap */,
+				42F8187C2B482E664C193109043AAFC1 /* Pods-JsonTranslatorGenerator_Tests-acknowledgements.markdown */,
+				7FB7A18C8A40EB902DAE9F497196733A /* Pods-JsonTranslatorGenerator_Tests-acknowledgements.plist */,
+				BC91AFC531E2F89CDEE501C431F43CF6 /* Pods-JsonTranslatorGenerator_Tests-dummy.m */,
+				03150E3DD6C39DD7B7572E853BAE7323 /* Pods-JsonTranslatorGenerator_Tests-frameworks.sh */,
+				F92386BA4CBEF0BBF047A15C296F8215 /* Pods-JsonTranslatorGenerator_Tests-resources.sh */,
+				B8B489CA36C1D2B54F8E01E1C3F5BC3C /* Pods-JsonTranslatorGenerator_Tests-umbrella.h */,
+				259A62F897D8C9FC6B0820CFDF590911 /* Pods-JsonTranslatorGenerator_Tests.debug.xcconfig */,
+				62EE478144BE60D35B4365730B14218F /* Pods-JsonTranslatorGenerator_Tests.release.xcconfig */,
+			);
+			name = "Pods-JsonTranslatorGenerator_Tests";
+			path = "Target Support Files/Pods-JsonTranslatorGenerator_Tests";
+			sourceTree = "<group>";
+		};
+		5A058B4B7CF94DD4FDB9B99C04C34EF0 /* Pods-JsonTranslatorGenerator_Example */ = {
+			isa = PBXGroup;
+			children = (
+				26378434D38E3EAB0741F018F0A743E3 /* Info.plist */,
+				6A15D7D7510EC4772EF13B63CC921C74 /* Pods-JsonTranslatorGenerator_Example.modulemap */,
+				CBAF9165B41DE21DD770F7FDCBDD29FF /* Pods-JsonTranslatorGenerator_Example-acknowledgements.markdown */,
+				62430E7CA9198DF4E9182E19F39434F7 /* Pods-JsonTranslatorGenerator_Example-acknowledgements.plist */,
+				2D04042FA0A66CF81D2D71B3C7C418B1 /* Pods-JsonTranslatorGenerator_Example-dummy.m */,
+				F96E1FFC118B2BB733C31CDD15A05121 /* Pods-JsonTranslatorGenerator_Example-frameworks.sh */,
+				2D9FA46B4C50B94985BC6F13A5BB10D8 /* Pods-JsonTranslatorGenerator_Example-resources.sh */,
+				0BBBEEDE48619EFE873B379C1D9EE9A6 /* Pods-JsonTranslatorGenerator_Example-umbrella.h */,
+				94142B18F9CDF67F22718E7EA7BDCFE6 /* Pods-JsonTranslatorGenerator_Example.debug.xcconfig */,
+				6FD5026B1F43380DAB286063345DDD49 /* Pods-JsonTranslatorGenerator_Example.release.xcconfig */,
+			);
+			name = "Pods-JsonTranslatorGenerator_Example";
+			path = "Target Support Files/Pods-JsonTranslatorGenerator_Example";
+			sourceTree = "<group>";
+		};
+		696486868E049487E64D505C615217F3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				569D4974EA6C86CCC14CC4602274041F /* JsonTranslatorGenerator.podspec */,
+				1FBF53E20ACCBEF070A744B8037A5331 /* LICENSE */,
+				7C6F15A6A8AD169B538DA401DE96819A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				8B45EF2C0A29638E03D3151EBA1212B4 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8F1BD08C86C0A3051BE1A226F4D1A03A /* Products */,
+				85F4504D40E00032D36BC19E3C4F3301 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85F4504D40E00032D36BC19E3C4F3301 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A058B4B7CF94DD4FDB9B99C04C34EF0 /* Pods-JsonTranslatorGenerator_Example */,
+				55F59CDED751A10F710CBA0DD824CB3F /* Pods-JsonTranslatorGenerator_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8B45EF2C0A29638E03D3151EBA1212B4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF105CB202FBD5F0ACE3EB947B8D9290 /* JsonTranslatorGenerator */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8F1BD08C86C0A3051BE1A226F4D1A03A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF8E7FBB54F90C1444458C8B6D44B56B /* JsonTranslatorGenerator.framework */,
+				5840B95A19E1CC358FC6DB57CCD61FD6 /* Pods_JsonTranslatorGenerator_Example.framework */,
+				9ADE2FEA8A6D3E0A5C47648B81147087 /* Pods_JsonTranslatorGenerator_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EF105CB202FBD5F0ACE3EB947B8D9290 /* JsonTranslatorGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				8ECFB510C35FC4379FAC5A42F4004F1A /* ReplaceMe.swift */,
+				696486868E049487E64D505C615217F3 /* Pod */,
+				42AEDA28170458F8D53149E9F7866C43 /* Support Files */,
+			);
+			name = JsonTranslatorGenerator;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1DAE279E23B8827FD8DCA5D9EBA45EF8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74C176A47A02BE7236CCF2B41702BFE0 /* JsonTranslatorGenerator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85AD9BA825CB39868527EA64EDF91739 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5708B9AFD8E42D32AF5953F8A1E344EB /* Pods-JsonTranslatorGenerator_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E633EE5DC895155D5438C9CAC118B72 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACE95CB87E310FD12C6BAA9ACA951AC /* Pods-JsonTranslatorGenerator_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		43C49859B792D68E88B874D867CD2564 /* Pods-JsonTranslatorGenerator_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F7BB383F0BD3CEF5E6DE004E3DEB72E /* Build configuration list for PBXNativeTarget "Pods-JsonTranslatorGenerator_Tests" */;
+			buildPhases = (
+				FBCC8F975A7CD11422687BD75AEC51A5 /* Sources */,
+				420DE3C814EC2917B6B889DE4AB49062 /* Frameworks */,
+				85AD9BA825CB39868527EA64EDF91739 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JsonTranslatorGenerator_Tests";
+			productName = "Pods-JsonTranslatorGenerator_Tests";
+			productReference = 9ADE2FEA8A6D3E0A5C47648B81147087 /* Pods_JsonTranslatorGenerator_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A4CAF85ED34668AA6B396408BEE4DB75 /* Pods-JsonTranslatorGenerator_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C961D6CD9400F468FCC57CF951BD59B /* Build configuration list for PBXNativeTarget "Pods-JsonTranslatorGenerator_Example" */;
+			buildPhases = (
+				DED47558AF34CE6D6DF7B6CFAADD4618 /* Sources */,
+				86D710739946576F8A881CB866302674 /* Frameworks */,
+				8E633EE5DC895155D5438C9CAC118B72 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93946AD9ABD6EC75A18991596F759FD2 /* PBXTargetDependency */,
+			);
+			name = "Pods-JsonTranslatorGenerator_Example";
+			productName = "Pods-JsonTranslatorGenerator_Example";
+			productReference = 5840B95A19E1CC358FC6DB57CCD61FD6 /* Pods_JsonTranslatorGenerator_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C15A4C5E805E4071E106BD59C020231F /* JsonTranslatorGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 506CF67092563132239B15FA28D5A69D /* Build configuration list for PBXNativeTarget "JsonTranslatorGenerator" */;
+			buildPhases = (
+				4CADBB12597C33F0FC37206AFBCE9CB4 /* Sources */,
+				E0B4891A0C1109A877D80039A1C87538 /* Frameworks */,
+				1DAE279E23B8827FD8DCA5D9EBA45EF8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JsonTranslatorGenerator;
+			productName = JsonTranslatorGenerator;
+			productReference = EF8E7FBB54F90C1444458C8B6D44B56B /* JsonTranslatorGenerator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8F1BD08C86C0A3051BE1A226F4D1A03A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C15A4C5E805E4071E106BD59C020231F /* JsonTranslatorGenerator */,
+				A4CAF85ED34668AA6B396408BEE4DB75 /* Pods-JsonTranslatorGenerator_Example */,
+				43C49859B792D68E88B874D867CD2564 /* Pods-JsonTranslatorGenerator_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CADBB12597C33F0FC37206AFBCE9CB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E818CA93096B52670C79DF2CE187B3F /* JsonTranslatorGenerator-dummy.m in Sources */,
+				DCAFDB1ED2F0D4E92B3641B9CBA385D9 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DED47558AF34CE6D6DF7B6CFAADD4618 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9515B02A399BCF83D372CAAD643E3F63 /* Pods-JsonTranslatorGenerator_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBCC8F975A7CD11422687BD75AEC51A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE2176929C7C8D15445F43CF417B7AB /* Pods-JsonTranslatorGenerator_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93946AD9ABD6EC75A18991596F759FD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JsonTranslatorGenerator;
+			target = C15A4C5E805E4071E106BD59C020231F /* JsonTranslatorGenerator */;
+			targetProxy = C9D0A1C0075C891B33FBB83C1091A59B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5AC87C7D1E97BF602EBED46189188A50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12FEACB163EC9FAEBAEB94D82CD7989A /* JsonTranslatorGenerator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JsonTranslatorGenerator/JsonTranslatorGenerator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JsonTranslatorGenerator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JsonTranslatorGenerator/JsonTranslatorGenerator.modulemap";
+				PRODUCT_NAME = JsonTranslatorGenerator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		69713535AAFD4780BA9E8FA79733EE50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FD5026B1F43380DAB286063345DDD49 /* Pods-JsonTranslatorGenerator_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JsonTranslatorGenerator_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JsonTranslatorGenerator_Example/Pods-JsonTranslatorGenerator_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JsonTranslatorGenerator_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8E033A25DEB685B9DC988ABC4E6A5870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12FEACB163EC9FAEBAEB94D82CD7989A /* JsonTranslatorGenerator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JsonTranslatorGenerator/JsonTranslatorGenerator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JsonTranslatorGenerator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JsonTranslatorGenerator/JsonTranslatorGenerator.modulemap";
+				PRODUCT_NAME = JsonTranslatorGenerator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C10D9535A9735919924C8C23781638C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 259A62F897D8C9FC6B0820CFDF590911 /* Pods-JsonTranslatorGenerator_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JsonTranslatorGenerator_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JsonTranslatorGenerator_Tests/Pods-JsonTranslatorGenerator_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JsonTranslatorGenerator_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CDDB33942B0CC59D467DEF236268B539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94142B18F9CDF67F22718E7EA7BDCFE6 /* Pods-JsonTranslatorGenerator_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JsonTranslatorGenerator_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JsonTranslatorGenerator_Example/Pods-JsonTranslatorGenerator_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JsonTranslatorGenerator_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E5EE5952F3C006581ABD42CFF3D10F88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62EE478144BE60D35B4365730B14218F /* Pods-JsonTranslatorGenerator_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JsonTranslatorGenerator_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JsonTranslatorGenerator_Tests/Pods-JsonTranslatorGenerator_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JsonTranslatorGenerator_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C961D6CD9400F468FCC57CF951BD59B /* Build configuration list for PBXNativeTarget "Pods-JsonTranslatorGenerator_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDDB33942B0CC59D467DEF236268B539 /* Debug */,
+				69713535AAFD4780BA9E8FA79733EE50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		506CF67092563132239B15FA28D5A69D /* Build configuration list for PBXNativeTarget "JsonTranslatorGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E033A25DEB685B9DC988ABC4E6A5870 /* Debug */,
+				5AC87C7D1E97BF602EBED46189188A50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F7BB383F0BD3CEF5E6DE004E3DEB72E /* Build configuration list for PBXNativeTarget "Pods-JsonTranslatorGenerator_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C10D9535A9735919924C8C23781638C3 /* Debug */,
+				E5EE5952F3C006581ABD42CFF3D10F88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

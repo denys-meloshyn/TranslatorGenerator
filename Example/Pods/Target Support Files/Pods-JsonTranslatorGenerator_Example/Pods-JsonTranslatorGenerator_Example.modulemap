@@ -1,0 +1,6 @@
+framework module Pods_JsonTranslatorGenerator_Example {
+  umbrella header "Pods-JsonTranslatorGenerator_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
