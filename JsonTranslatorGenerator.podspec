@@ -23,12 +23,11 @@ Tool for generating TranslationJSON.generated.swift using JsonTranslatorGenerato
 
   s.homepage         = 'https://github.com/ned1988'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = 'MIT'
   s.author           = { 'Denys Meloshyn' => 'denys.meloshyn@visma.com' }
-  s.source           = { :git => 'https://github.com/ned1988/JsonTranslatorGenerator.git', :tag => s.version.to_s }
   s.source           = { http: "https://github.com/ned1988/TranslatorGenerator/releases/download/#{s.version}/JSONCodeGenerator-#{s.version}.zip" }
   
-  s.preserve_paths = 'JSONCodeGenerator'
+  s.preserve_paths = '*'
   
   # https://github.com/ned1988/TranslatorGenerator/releases/download/0.1.0/JSONCodeGenerator-0.1.0.zip
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
@@ -36,7 +35,7 @@ Tool for generating TranslationJSON.generated.swift using JsonTranslatorGenerato
   s.ios.deployment_target = '8.0'
   s.swift_version = '4.0'
 
-  s.source_files = 'JsonTranslatorGenerator/Classes/**/*'
+  # s.source_files = 'JsonTranslatorGenerator/Classes/**/*'
   
   # s.resource_bundles = {
   #   'JsonTranslatorGenerator' => ['JsonTranslatorGenerator/Assets/*.png']
