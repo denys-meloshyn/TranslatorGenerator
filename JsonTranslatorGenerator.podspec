@@ -25,7 +25,12 @@ Tool for generating TranslationJSON.generated.swift using JsonTranslatorGenerato
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Denys Meloshyn' => 'denys.meloshyn@visma.com' }
-  s.source           = { :git => 'https://github.com/Denys Meloshyn/JsonTranslatorGenerator.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ned1988/JsonTranslatorGenerator.git', :tag => s.version.to_s }
+  s.source           = { http: "https://github.com/ned1988/TranslatorGenerator/releases/download/#{s.version}/JSONCodeGenerator-#{s.version}.zip" }
+  
+  s.preserve_paths = 'JSONCodeGenerator'
+  
+  # https://github.com/ned1988/TranslatorGenerator/releases/download/0.1.0/JSONCodeGenerator-0.1.0.zip
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
